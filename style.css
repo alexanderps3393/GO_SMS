@@ -1,0 +1,152 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:calibri;
+}
+
+#background {
+			width:100%;
+			padding:8px;
+			background-color:gray;
+	}
+#aplikasi {
+			width:550px;
+			height:550px;
+			margin:0 auto;
+			padding:50px;
+			background:url(images/layout.png) no-repeat;
+	}
+#kepala {
+			width:100%;
+			height:150px;
+			
+	}
+
+.judul {
+			width:100%;
+			height:100px;
+	}
+.menu {
+			width:400px;
+			height:50px;
+			margin-left:118px;
+			background:#b9b9b9;
+			border-top-left-radius:30px;
+			border-top-right-radius:30px;
+	}
+.menu li {
+			list-style:none;
+			
+	}
+.tombol {
+			float:left;
+	}
+.tombol a {
+			display:block;
+			width:96px;
+			line-height:46px;
+			padding:0px;
+			text-align:left;
+			font-weight:bold;
+			text-decoration:none;
+			background:none;
+			color:#eeeeee;
+			border: 2px solid #eeeeee;
+	}
+
+.outbox img {
+			float:left;
+			margin:8px 3px 3px 0px;
+	}
+.atur img {
+			float:left;
+			margin:8px 10px 0px 10px;
+	}
+.ling1 a {
+			border-top-left-radius:30px;
+	}
+.ling2 a {
+			border-top-right-radius:30px;
+	}
+.tombol a:hover{
+			background:#eeeeee;
+			color:black;
+	}
+
+/*ini bagian dari content========================*/
+#content{
+			width:500px;
+			height:350px;
+			border-radius:30px;
+			padding:25px;
+			background:#eeeeee;		
+	}
+.isi {
+			width:500px;
+			height:350px;
+			background:none;
+	}
+	
+
+/*bagian dari Menu INSTALL========================*/
+.tabel1 {
+			width:350px;
+			padding:5px;
+			margin:0 auto;
+	}
+.tabel1 table  {
+			border:2px solid blue;
+			border-collapse:collapse;
+	}
+	
+.tabel1 table  th,td {
+			vertical-align:middle;
+			padding:5px;
+			font-weight:bold;
+	}
+.tabel1 table  th {
+			text-align:center;
+			background:blue;
+	}
+.tabel1 table  td {
+			background:#c3fffb;
+	}
+.tabel1 table th{
+			color : white;
+	}
+.tabel1 table tr {
+			height:50px;
+	}
+
+/*menu LANJUT ==========================================*/
+.lanjut a {
+			display : block;
+			width:100px;
+			line-height:30px;
+			text-align:center;
+			font-weight:bold;
+			text-decoration:none;
+			border : 1px solid blue;
+			border-radius:10px;
+			background:#b9b9b9;
+			color : white;
+			float:left;
+	}
+.lanjut a:hover {
+			color:black;
+			background:#eeeeee;
+	}
+/*tabel2 pada langkah ke tiga =============================*/
+.tabel2 {
+		width:300px;
+		margin:0 auto;
+		padding:10px;	
+	}
+.tabel2 table {
+			border: 2px solid blue;
+			border-collapse:collapse;
+	}
+.tabel2 table th {
+			color:white;
+			background:blue;
+	}
